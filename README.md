@@ -8,7 +8,6 @@ It supports:
 -  Streaming data from Cosmos DB (no memory issues)
 -  Batching + bulk insert into SQL
 -  Flattening nested arrays (tags → ProductTags child table)
--  Retry handling for Cosmos DB throttling (429)
 -  Retry logic for SQL transient failures
 -  Final migration summary (migrated, failed, duration)
 
